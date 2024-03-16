@@ -71,7 +71,7 @@ const TemperatureControl = () => {
 
   const renderTemperature = () => {
     if (temperature === 50) {
-      return <p>too hot!🥵 test</p>;
+      return <p>too hot!🥵</p>;
     } else if (temperature === -10) {
       return <p>too cold!🥶</p>;
     } else return temperature;
