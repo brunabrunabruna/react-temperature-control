@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 
 // interpolate between predefined colors in an array
@@ -25,12 +25,12 @@ const colorLerp = (color1: Color, color2: Color, alpha: number): Color => {
   return [red, green, blue];
 };
 
-const minTemperature = -50;
-const maxTemperature = 60;
+// const minTemperature = -50;
+// const maxTemperature = 60;
 
-const minScaleTemperature = -10;
-const maxScaleTemperature = 40;
-const scale = maxScaleTemperature - minScaleTemperature;
+// const minScaleTemperature = -10;
+// const maxScaleTemperature = 40;
+// const scale = maxScaleTemperature - minScaleTemperature;
 
 //variable that defines the intervals between temperatures. stepSize = 2, temperatures will be 0,2,4...
 const stepSize = 5;
